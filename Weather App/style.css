@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 350px;
+    background-image: linear-gradient(to bottom,hsla(163, 30%, 49%, 0.842), hsl(209, 55%, 48%));
+    border-radius: 20px;
+    
+}
+
+nav{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#search-box{
+    border-radius: 10px;
+    
+}
+
+img[src="images/clear.png"]{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+nav img{
+    width: 10%;
+} 
+
+#place{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#humid-wind{
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
